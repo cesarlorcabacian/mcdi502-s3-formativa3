@@ -3,12 +3,9 @@
 [![validate](https://github.com/cesarlorcabacian/mcdi502-s3-formativa3/actions/workflows/validate.yml/badge.svg)](https://github.com/cesarlorcabacian/mcdi502-s3-formativa3/actions/workflows/validate.yml)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cesarlorcabacian/mcdi502-s3-formativa3/blob/main/notebooks/MCDI502_S3_EvaluacionFormativa.ipynb)
 
-> Repositorio: <https://github.com/cesarlorcabacian/mcdi502-s3-formativa3> · Autor: [@cesarlorcabacian](https://github.com/cesarlorcabacian)
-> El botón de Colab funciona si el repositorio es **público**; si es privado, descarga el `.ipynb` y súbelo manualmente.
+## Curso: MCDI502 Gestión de Datos y Tecnologías Big Data, Magíster en Ciencia de Datos (UNAB)
 
-Curso: MCDI502 Gestión de Datos y Tecnologías Big Data, Magíster en Ciencia de Datos (UNAB)
-
-Integrantes: Fernanda Ovalle Román · Sebastián Cajales Cid · Jorge Álvarez Ossandón ·  César Lorca Bacián
+##### Integrantes: Fernanda Ovalle Román · Sebastián Cajales Cid · Jorge Álvarez Ossandón ·  César Lorca Bacián
 
 Actividad **grupal, sin nota (0%)** del curso *Gestión de Datos y Tecnologías Big Data* (UNAB).
 Practica el flujo de ingesta → transformación → consulta SQL → integración con **Apache Spark** usando dos APIs públicas.
@@ -76,8 +73,10 @@ python src/formativa3.py --n 3      # prueba rápida
 El trabajo debe ser de autoría propia del grupo, citando las fuentes utilizadas (notebooks base del curso y documentación de las APIs). Este repositorio es una guía de trabajo: revisa y adapta el código antes de entregarlo.
 
 ## Integrantes
-- César Antonio Lorca Bacian ([@cesarlorcabacian](https://github.com/cesarlorcabacian))
-- [Resto de integrantes del grupo]
+- Fernanda Ovalla Román
+- Sebastián Cajales Cid
+- Jorge Álvarez Ossandón
+- César Lorca Bacian
 
 ## Curso
-- MCDI502 · Universidad Andrés Bello · Semana 3 (plazo: domingo 15-nov-2026, 23:59)
+- MCDI502 · Universidad Andrés Bello · Semana 3
