@@ -1,0 +1,6 @@
+requests>=2.31
+pandas>=2.0
+pyspark>=3.5,<4
+findspark>=2.0
+# Solo para validación local/CI del notebook
+nbformat>=5.9

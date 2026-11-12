@@ -1,0 +1,23 @@
+name: validate
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install nbformat
+      - name: Validar notebook y sintaxis
+        run: |
+          python - <<'PY'
+          import ast, nbformat
+          nb = nbformat.read("notebooks/MCDI502_S3_EvaluacionFormativa.ipynb", as_version=4)
+          nbformat.validate(nb)
+          for c in nb.cells:
+              if c.cell_type == "code":
+                  ast.parse("\n".join(l for l in c.source.splitlines() if not l.startswith("!")))
+          print("Notebook OK")
+          PY
+          python -m py_compile src/formativa3.py && echo "Script OK"
