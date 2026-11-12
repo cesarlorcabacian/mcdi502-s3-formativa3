@@ -6,6 +6,10 @@
 > Repositorio: <https://github.com/cesarlorcabacian/mcdi502-s3-formativa3> · Autor: [@cesarlorcabacian](https://github.com/cesarlorcabacian)
 > El botón de Colab funciona si el repositorio es **público**; si es privado, descarga el `.ipynb` y súbelo manualmente.
 
+Curso: MCDI502 Gestión de Datos y Tecnologías Big Data, Magíster en Ciencia de Datos (UNAB)
+
+Integrantes: Fernanda Ovalle Román · Sebastián Cajales Cid · Jorge Álvarez Ossandón ·  César Lorca Bacián
+
 Actividad **grupal, sin nota (0%)** del curso *Gestión de Datos y Tecnologías Big Data* (UNAB).
 Practica el flujo de ingesta → transformación → consulta SQL → integración con **Apache Spark** usando dos APIs públicas.
 
